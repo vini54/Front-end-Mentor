@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --color1: #e0e8ff;
+    --color2: #2957E0;
+    --color3: #F5F7FF;
+    --color4: #7280A7;
+    --color5: #1F2F56;
+    --font1: 'Red Hat Display', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(images/pattern-background-desktop.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: var(--color1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    max-width: 450px;
+    max-height: 700px;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #7280a740;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+section > img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.main_cont {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main_cont > h2 {
+    color: var(--color5);
+    font-weight: 900;
+}
+.main_cont p {
+    color: var(--color4);
+}
+.plan {
+    width: 100%;
+    background-color: var(--color3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 0.8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plan > div {
+    text-align: start;
+}
+.plan > div > h3 {
+    font-weight: 900;
+}
+.plan > p {
+    color: var(--color2);
+    text-decoration: underline;
+}
+.plan > p:hover {
+    cursor: pointer;
+}
+.plan > p:active {
+    color: var(--color4);
+    text-decoration: none;
+}
+.main_cont button {
+    width: 100%;
+    background-color: var(--color2);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 10px 20px #7280a780;
+}
+.main_cont button:hover {
+    cursor: pointer;
+}
+.main_cont button:active {
+    background-color: var(--color4);
+}
+.cancel {
+    margin-top: 20px;
+    color: var(--color4);
+    font-weight: 700;
+}
+.cancel:hover {
+    cursor: pointer;
+}
+.cancel:active {
+    color: var(--color5);
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    section {
+        width: 90%;
+    }
+    .main_cont {
+        width: 90%;
+    }
+}
