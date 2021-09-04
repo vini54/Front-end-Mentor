@@ -25,20 +25,20 @@ Users should be able to:
 
 - My default screen:
 
-![](./sources/screenshot-M.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/Order%20summary%20component/Sources/screenshot-M.png)
 
 - Full-hd desktop:
 
-![](./sources/screenshot-G.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/Order%20summary%20component/Sources/screenshot-G.png)
 
 - Mobile :
 
-![](./sources/screenshot-P.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/Order%20summary%20component/Sources/screenshot-P.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/html-and-css-with-flexbox-lo3wpeZ7-)
+- Live Site URL: [Netlify](https://hardcore-bell-6093b9.netlify.app/)
 
 ## My process
 
