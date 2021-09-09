@@ -29,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-section {
+main {
     max-width: 450px;
     max-height: 700px;
     height: 80%;
@@ -42,7 +42,7 @@ section {
     align-items: center;
     justify-content: flex-start;
 }
-section > img {
+main > img {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
@@ -57,7 +57,7 @@ section > img {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.main_cont > h2 {
+.main_cont > h1 {
     color: var(--color5);
     font-weight: 900;
 }
