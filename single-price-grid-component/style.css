@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --color1: #2ab2af;
+    --color2: #C0DF34;
+    --color3: #E5EFF5;
+    --color4: #98A6BD;
+    --color5: #4ABEBD;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    max-width: 640px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45% 55%;
+    grid-template-areas: "h h" "s a";
+
+}
+.head , .sign , .aside {  
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.head {
+    background-color: #fff;
+    grid-area: h;
+}
+.head h1 {
+    color: var(--color1);
+}
+.head h2 {
+    color: var(--color2);
+}
+.head p , .sign span {
+    color: var(--color4);
+}
+div p , div li , .sign span {
+    color: var(--color3);
+}
+h2 {
+    color: #fff;
+}
+.sign {
+    background-color: var(--color1);
+    grid-area: s;
+}
+.sign strong {
+    font-size: 1.8rem;
+    padding: 0 20px 0 0;
+}
+.sign input[type="button"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: var(--color2);
+    color: #fff;
+}
+.sign input[type="button"]:hover {
+    cursor: pointer;
+}
+.aside {
+    background-color: var(--color5);
+    grid-area: a;
+}
+.aside ul {
+    list-style: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width:680px) {
+    body {
+        height: auto;
+    }
+    main {
+        max-width: 310px;
+        overflow: hidden;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+}
