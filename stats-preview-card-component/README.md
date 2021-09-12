@@ -27,15 +27,15 @@ Users should be able to:
 
 - My default screen:
 
-![](./sources/screenshot-m.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/stats-preview-card-component/Sources/screenshot-m.png)
 
 - Full-hd desktop: 
 
-![](./sources/screenshot-g.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/stats-preview-card-component/Sources/screenshot-g.png)
 
 - Mobile:
 
-![](./sources/screenshot-p.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/stats-preview-card-component/Sources/screenshot-p.png)
 
 ### Links
 
