@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/html-and-css-with-flexbox-sKkkZUMTW)
+- Live Site URL: [netlify](https://gracious-meninsky-735086.netlify.app/)
 
 ## My process
 
