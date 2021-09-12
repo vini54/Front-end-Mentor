@@ -28,22 +28,22 @@ Users should be able to:
 
 - My screen:
 
-![](./sources/screenshot-m.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/single-price-grid-component/Sources/screenshot-m.png)
 
 - Full-hd desktop: 
 
-![](./sources/screenshot-g.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/single-price-grid-component/Sources/screenshot-g.png)
 
 - Mobile: 
 
-![](./sources/screenshot-p.png)
+![](https://raw.githubusercontent.com/vini54/Front-end-Mentor/main/single-price-grid-component/Sources/screenshot-p.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/terceiro-chalenge-feito-com-grid-layout-rBR87vcxn)
+- Live Site URL: [Netlify](https://pensive-pasteur-bf24a5.netlify.app/)
 
 ## My process
 
